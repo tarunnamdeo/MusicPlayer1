@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#4dacde">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnStart"
+            android:text="Start"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnStop"
+            android:text="Stop"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_alpha="80"
+        app:pv_color="#FFF"
+        app:pv_icon="@drawable/wifi"
+        app:pv_icon_height="100dp"
+        app:pv_icon_width="100dp"
+        app:pv_measure="height"
+        app:pv_spawn_period="600"
+        app:pv_interpolator="@android:anim/linear_interpolator"
+        />
+
+
+</RelativeLayout>

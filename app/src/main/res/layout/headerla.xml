@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_lau"/>
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/img"
+        android:layout_marginEnd="17dp"
+        android:text="Developed By Tarun Namdeo"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/img"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp" />
+
+</RelativeLayout>

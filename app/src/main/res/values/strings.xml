@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="imp">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="im">Art</string>
+    <string name="inm">kuchor</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">search_hint</string>
+    <string name="song_name">Age of Worry</string>
+    <string name="artist_name">john mayer</string>
+    <string name="splash">Wellcome</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
